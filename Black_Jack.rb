@@ -23,6 +23,7 @@ def round
   end
 
   while playerAction == "stay"
+
   
     dealerTotal = dealerHand.map { |x| x == "King" ? 10 : x }
     dealerTotal = dealerTotal.map { |x| x == "Queen" ? 10 : x }
